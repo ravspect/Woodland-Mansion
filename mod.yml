@@ -1,0 +1,428 @@
+title: Woodland Mansion
+originalAuthor: Ravspect
+description: DiZ is going through another 2 week Minecraft phase.
+game: kh2
+dependencies: 
+assets:
+
+# The 1 Text Box
+- name: msg/jp/tt.bar
+  multi:
+  - name: msg/us/tt.bar
+  - name: msg/uk/tt.bar
+  method: binarc
+  source:
+  - name: tt
+    type: list
+    method: kh2msg
+    source:
+    - name: tt.yml
+      language: en
+
+# Paintings
+- name: remastered\map\tt15.map\-11.dds
+  method: copy
+  platform: pc
+  source:
+  - name: remastered\map\tt15.map\-11.dds
+- name: remastered\map\tt15.map\-32.dds
+  method: copy
+  platform: pc
+  source:
+  - name: remastered\map\tt15.map\-32.dds
+
+
+# Outside (Window)--------------------------------------
+
+# Patio
+- name: remastered\map\tt15.map\-15.dds
+  method: copy
+  platform: pc
+  source:
+  - name: remastered\map\tt15.map\-15.dds
+
+# Grass
+- name: remastered\map\tt15.map\-16.dds
+  method: copy
+  platform: pc
+  package: Darkmode SP
+  source:
+  - name: remastered\map\tt15.map\-16.dds
+
+# Statue
+- name: remastered\map\tt15.map\-17.dds
+  method: copy
+  platform: pc
+  package: Darkmode SP
+  source:
+  - name: remastered\map\tt15.map\-17.dds
+
+# Tree
+- name: remastered\map\tt15.map\-18.dds
+  method: copy
+  platform: pc
+  package: Darkmode SP
+  source:
+  - name: remastered\map\tt15.map\-18.dds
+
+# Bush
+- name: remastered\map\tt15.map\-40.dds
+  method: copy
+  platform: pc
+  package: Darkmode SP
+  source:
+  - name: remastered\map\tt15.map\-40.dds
+
+
+# Inside------------------------------------------
+
+# Railings
+- name: remastered\map\tt15.map\-4.dds
+  method: copy
+  platform: pc
+  package: Darkmode SP
+  source:
+  - name: remastered\map\tt15.map\-4.dds
+
+# Tile Floor
+- name: remastered\map\tt15.map\-5.dds
+  method: copy
+  platform: pc
+  package: Darkmode SP
+  source:
+  - name: remastered\map\tt15.map\-5.dds
+
+# Stairs/Under Carpet Flooring
+- name: remastered\map\tt15.map\-7.dds
+  method: copy
+  platform: pc
+  package: Darkmode SP
+  source:
+  - name: remastered\map\tt15.map\-7.dds
+
+# Wall w/ Mid-trim
+- name: remastered\map\tt15.map\-21.dds
+  method: copy
+  platform: pc
+  package: Darkmode SP
+  source:
+  - name: remastered\map\tt15.map\-21.dds
+
+# Wall Under Stairs
+- name: remastered\map\tt15.map\-23.dds
+  method: copy
+  platform: pc
+  package: Darkmode SP
+  source:
+  - name: remastered\map\tt15.map\-23.dds
+
+# Foyer Diamond Walls
+- name: remastered\map\tt15.map\-24.dds
+  method: copy
+  platform: pc
+  package: Darkmode SP
+  source:
+  - name: remastered\map\tt15.map\-24.dds
+
+# Bottom Doors/Armor Knight's Shield
+- name: remastered\map\tt15.map\-9.dds
+  method: copy
+  platform: pc
+  package: Darkmode SP
+  source:
+  - name: remastered\map\tt15.map\-9.dds
+
+# Top Doors
+- name: remastered\map\tt15.map\-26.dds
+  method: copy
+  platform: pc
+  package: Darkmode SP
+  source:
+  - name: remastered\map\tt15.map\-26.dds
+
+# Support Trim
+- name: remastered\map\tt15.map\-22.dds
+  method: copy
+  platform: pc
+  package: Darkmode SP
+  source:
+  - name: remastered\map\tt15.map\-22.dds
+
+# Stairs
+- name: remastered\map\tt15.map\-27.dds
+  method: copy
+  platform: pc
+  package: Darkmode SP
+  source:
+  - name: remastered\map\tt15.map\-27.dds
+
+# Ceiling
+- name: remastered\map\tt15.map\-28.dds
+  method: copy
+  platform: pc
+  package: Darkmode SP
+  source:
+  - name: remastered\map\tt15.map\-28.dds
+
+# Carpet
+- name: remastered\map\tt15.map\-34.dds
+  method: copy
+  platform: pc
+  package: Darkmode SP
+  source:
+  - name: remastered\map\tt15.map\-34.dds
+
+# Wolf Ornament
+- name: remastered\map\tt15.map\-31.dds
+  method: copy
+  platform: pc
+  package: Darkmode SP
+  source:
+  - name: remastered\map\tt15.map\-31.dds
+
+# Webs
+- name: remastered\map\tt15.map\-42.dds
+  method: copy
+  platform: pc
+  package: Darkmode SP
+  source:
+  - name: remastered\map\tt15.map\-42.dds
+
+
+# The Dining Room---------------------------
+
+# Dining Room Door
+- name: remastered\map\tt16.map\-9.dds
+  method: copy
+  platform: pc
+  source:
+  - name: remastered\map\tt16.map\-9.dds
+- name: remastered\map\tt16.map\-31.dds
+  method: copy
+  platform: pc
+  source:
+  - name: remastered\map\tt16.map\-31.dds
+
+# Walls
+- name: remastered\map\tt16.map\-1.dds
+  method: copy
+  platform: pc
+  source:
+  - name: remastered\map\tt16.map\-1.dds
+- name: remastered\map\tt16.map\-10.dds # Ripped Wallpaper 1
+  method: copy
+  platform: pc
+  source:
+  - name: remastered\map\tt16.map\-10.dds
+- name: remastered\map\tt16.map\-15.dds # Ripped Wallpaper 2
+  method: copy
+  platform: pc
+  source:
+  - name: remastered\map\tt16.map\-15.dds
+
+# Wood Accent Near Floor
+- name: remastered\map\tt16.map\-6.dds
+  method: copy
+  platform: pc
+  source:
+  - name: remastered\map\tt16.map\-6.dds
+
+# Shield
+- name: remastered\map\tt16.map\-3.dds
+  method: copy
+  platform: pc
+  source:
+  - name: remastered\map\tt16.map\-3.dds
+
+# Candles
+- name: remastered\map\tt16.map\-5.dds
+  method: copy
+  platform: pc
+  source:
+  - name: remastered\map\tt16.map\-5.dds
+
+# Carpet
+- name: remastered\map\tt16.map\-4.dds
+  method: copy
+  platform: pc
+  source:
+  - name: remastered\map\tt16.map\-4.dds
+
+# Window
+- name: remastered\map\tt16.map\-20.dds
+  method: copy
+  platform: pc
+  source:
+  - name: remastered\map\tt16.map\-20.dds
+
+# Trim
+- name: remastered\map\tt16.map\-2.dds
+  method: copy
+  platform: pc
+  source:
+  - name: remastered\map\tt16.map\-2.dds
+
+# Ceiling
+- name: remastered\map\tt16.map\-0.dds
+  method: copy
+  platform: pc
+  source:
+  - name: remastered\map\tt16.map\-0.dds
+
+# Webs
+- name: remastered\map\tt16.map\-30.dds
+  method: copy
+  platform: pc
+  package: Darkmode SP
+  source:
+  - name: remastered\map\tt15.map\-42.dds
+
+# Cabinet
+#- name: remastered\map\tt16.map\-17.dds
+#  method: copy
+#  platform: pc
+#  source:
+#  - name: remastered\map\tt16.map\-17.dds
+
+# Broken Table
+# - name: remastered\map\tt16.map\-24.dds
+#  method: copy
+#  platform: pc
+#  source:
+#  - name: remastered\map\tt16.map\-24.dds
+
+
+
+# Library-----------------------------------
+
+# Library Door
+- name: remastered\map\tt17.map\-28.dds
+  method: copy
+  platform: pc
+  source:
+  - name: remastered\map\tt17.map\-28.dds
+
+# Ceiling
+- name: remastered\map\tt17.map\-1.dds
+  method: copy
+  platform: pc
+  source:
+  - name: remastered\map\tt17.map\-1.dds
+
+# Wood Floor
+- name: remastered\map\tt17.map\-10.dds
+  method: copy
+  platform: pc
+  source:
+  - name: remastered\map\tt17.map\-10.dds
+
+# Wood Floor Accent
+- name: remastered\map\tt17.map\-9.dds
+  method: copy
+  platform: pc
+  source:
+  - name: remastered\map\tt17.map\-9.dds
+
+# Books 1
+- name: remastered\map\tt17.map\-26.dds
+  method: copy
+  platform: pc
+  source:
+  - name: remastered\map\tt17.map\-26.dds
+
+# Webs
+- name: remastered\map\tt17.map\-5.dds
+  method: copy
+  platform: pc
+  source:
+  - name: remastered\map\tt15.map\-42.dds
+
+
+# White Room--------------------------------
+
+# Tile Floor
+- name: remastered\map\tt18.map\-0.dds
+  method: copy
+  platform: pc
+  source:
+  - name: remastered\map\tt18.map\-0.dds
+
+# Tile Floor
+- name: remastered\map\tt18.map\-1.dds
+  method: copy
+  platform: pc
+  source:
+  - name: remastered\map\tt18.map\-1.dds
+
+# Floor Trim
+- name: remastered\map\tt18.map\-2.dds
+  method: copy
+  platform: pc
+  source:
+  - name: remastered\map\tt18.map\-2.dds
+
+# Floor Trim
+- name: remastered\map\tt18.map\-14.dds
+  method: copy
+  platform: pc
+  source:
+  - name: remastered\map\tt18.map\-14.dds
+
+
+# White Room Door
+- name: remastered\map\tt18.map\-6.dds
+  method: copy
+  platform: pc
+  source:
+  - name: remastered\map\tt18.map\-6.dds
+
+# Front Door-----------------------------------------------------
+
+# Birck Wall
+- name: remastered\map\tt14.map\-3.dds
+  method: copy
+  platform: pc
+  source:
+  - name: remastered\map\tt14.map\-3.dds
+
+# Stone Walkway
+- name: remastered\map\tt14.map\-25.dds
+  method: copy
+  platform: pc
+  source:
+  - name: remastered\map\tt14.map\-25.dds
+
+# Brick
+- name: remastered\map\tt14.map\-28.dds
+  method: copy
+  platform: pc
+  source:
+  - name: remastered\map\tt14.map\-28.dds
+
+# Stained Glass
+- name: remastered\map\tt14.map\-51.dds
+  method: copy
+  platform: pc
+  source:
+  - name: remastered\map\tt14.map\-51.dds
+
+# TT Sigil
+- name: remastered\map\tt14.map\-60.dds
+  method: copy
+  platform: pc
+  source:
+  - name: remastered\map\tt14.map\-60.dds
+
+# Overhead Tile
+- name: remastered\map\tt14.map\-50.dds
+  method: copy
+  platform: pc
+  source:
+  - name: remastered\map\tt14.map\-50.dds
+
+# Gate Bars
+- name: remastered\map\tt14.map\-4.dds
+  method: copy
+  platform: pc
+  source:
+  - name: remastered\map\tt14.map\-4.dds
